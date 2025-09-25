@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.body {
+    background-color: black;
+}
+
+h1 {
+    color: bisque;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-family: "GFS Neohellenic", sans-serif;
+}
+
+.input--and--text {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.input {
+    margin-top: 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.buttons button {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.converted--temperature {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+#kelvin--temperature {
+    margin: 2rem 1rem 1rem 1rem;
+    padding: 0rem 8rem 8rem 8rem;
+    border: 1px solid bisque;
+}
+
+#fahrenheit--temperature {
+    margin: 2rem 1rem 1rem 1rem;
+    padding: 0rem 8rem 8rem 8rem;
+    border: 1px solid bisque;
+}
