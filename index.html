@@ -8,32 +8,42 @@
     <link rel="stylesheet" href="./normalize.css">
     <link rel="stylesheet" href="./style.css">
 
-    <title>Conversor de temperaturas</title>
+    <title>Temperature converter</title>
 </head>
 <body>
     <header>
     </header>
 
     <main>
-        <h1>Conversor de temperaturas Celsius</h1>
+        <h1>Celsius temperature converter</h1>
         <div>
-            <label for="input--temperature">Ingresa la temperatura en grados Celsius</label>
+            <label for="input--temperature">Enter the temperature in Celsius</label>
             <section class="input--and--C">
-                <input id="celsius--temperature" type="text" placeholder="Temperatura en Celsius">
-                <div>°C</div>
+                <input id="celsius--temperature" type="text" placeholder="Celsius temperature">
             </section>
+            <p id="paraghap--alert">
+
+            </p>
         </div>
         
 
         <div class="button-start">
-            <button onclick="">Convertir</button>
+            <button onclick="main()">Convert</button>
+        </div>
+
+        <div class="button-reset">
+            <button onclick="reset()">Reset</button>
         </div>
         
 
         <div class ="converted--temperature" id="kelvin--temperature">
             <h2>Kelvin</h2>
+            <p id="kelvin--temperature--pharagraph"></p>
         </div>
-        <div class ="" id="fahrenheit--temperature"><h2>Fahrenheit</h2></div>
+        <div class ="" id="fahrenheit--temperature">
+            <h2>Fahrenheit</h2>
+            <p id="fahrenheit--temperature--pharagraph"></p>
+        </div>
     </main>
 
     <script src="./convertidor.js"></script>
